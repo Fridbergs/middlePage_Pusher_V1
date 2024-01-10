@@ -1,6 +1,6 @@
 // Event listener for receiving the contact data
 chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
-  if (request.action === "displayContactData") {
+  if (request.action === "sendDataToSecondaryPage") {
     let contactData = request.data;
 
     // Create HTML elements to display each contact's details
