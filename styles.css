@@ -2,10 +2,19 @@
 body {
   font-family: Arial, sans-serif;
   padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: bisque;
 }
 
-.contact-container {
+#contactContainer {
+  min-width: 25em;
+  max-width: 75%;
+  min-height: 25em;
   border: 1px solid #ddd;
+  border-radius: 15px;
   padding: 10px;
   margin-bottom: 10px;
+  background-color: rgb(248, 245, 242);
 }
